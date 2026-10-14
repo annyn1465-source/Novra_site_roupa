@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BSK.FIT</title>
+    <!--CSS-->
+        <link rel="stylesheet" href="../../public/style-moda.css">
+    </head>
+        <body>
+        <!-- HEADER - Cabeçalho da página --> 
+        <div class="container">
+
+            <header id="header" class="header">
+                <div class="logo"> 
+                    <a href="../../public/index.html"><img src="../IMG/logo.png" alt="logo Bershka"></a>
+                </div>
+
+            <nav id="navbar" class="navbar">
+                <ul class="menu">
+                    <li class="menu-item"><a href="../moda_feminina/index.html">MULHER</a></li>
+                    <li class="menu-item"><a href="../moda_masculina/index.html">HOMEM</a></li>
+                    <li class="menu-item">BY INFLUERNCERS</li>
+                </ul>
+                <div class="busca">
+                    <input type="text" placeholder="Busca">
+                </div>
+            
+                <div class="usuario">
+
+                    <span>●</span>
+                    <a id="abrirLogin">INICIAR SESSÃO</a>
+                    <span>🛍</span>
+
+                </div>
+            </header>
+            <section class="hero">
+                <div class="video-marca">
+                    <video class="video-banner" autoplay muted loop playsinline>
+                        <source src="../IMG/video_marca (3).mp4" type="video/mp4">
+                    </video>
+                </div>
+
+            </section>
+
+                <!--carroceu automatico-->
+                <section class="carrossel">
+                <div class="slides">
+
+                    <img src="../IMG/car1.jpg" alt="Look 1">
+                    <img src="../IMG/car2.jpg" alt="Look 2">
+                    <img src="../IMG/car3.jpg" alt="Look 3">
+                    <img src="../IMG/car4.jpg" alt="Look 4">
+                    <img src="../IMG/car5.jpg" alt="Look 5">
+                    <img src="../IMG/car6.jpg" alt="Look 6">
+                    <img src="../IMG/car7.jpg" alt="Look 7">
+                </div>
+
+            </section>
+
+
+            <!--PRODUTOS
+                <section class="produtos-container">-->
+
+                <h2>PODE TE INTERESSAR</h2>
+                <div class="lista-produtos">
+
+                    <article class="produto">
+                        <img src="../IMG/lookM1.jpg" alt="Produto 1">
+
+                        <h3>JAQUETA JENS</h3>
+
+                        <p>R$ 199,00</p>
+
+                    </article>
+
+
+                    <article class="produto">
+
+                        <img src="../IMG/lookM2.jpg" alt="Produto 2">
+
+                        <h3>MOLETOM </h3>
+
+                        <p>R$ 159,00</p>
+
+                    </article>
+
+
+                    <article class="produto">
+
+                        <img src="../IMG/lookM3.jpg" alt="Produto 3">
+
+                        <h3>SOBREPOSIÇÃO </h3>
+
+                        <p>R$ 179,00</p>
+
+                    </article>
+
+
+                    <article class="produto">
+
+                        <img src="../IMG/lookM4 (2).jpg" alt="Produto 4">
+
+                        <h3>CALÇA MARRECO</h3>
+
+                        <p>R$ 299,00</p>
+
+                    </article>
+
+                    <article class="produto">
+                        <img src="../IMG/lookM5.jpg" alt="Produto 5">
+
+                        <h3>JAQUETA DE COURO</h3>
+
+                        <p>R$ 199,00</p>
+
+                    </article>
+
+
+                    <article class="produto">
+
+                        <img src="../IMG/lookM6.jpg" alt="Produto 6">
+
+                        <h3>BERMUDA</h3>
+
+                        <p>R$ 159,00</p>
+
+                    </article>
+
+
+                    <article class="produto">
+
+                        <img src="../IMG/lookM7.jpg" alt="Produto 7">
+
+                        <h3>SHORT</h3>
+
+                        <p>R$ 179,00</p>
+
+                    </article>
+
+
+                    <article class="produto">
+
+                        <img src="../IMG/lookM8.jpg" alt="Produto 8">
+
+                        <h3>BLUSA BASÍCA </h3>
+
+                        <p>R$ 299,00</p>
+
+                    </article>
+
+                </div>
+
+            <!-- =================================
+                5. FUNDOS DOS MODAIS
+            ================================== -->
+
+            <div id="fundo"></div>
+            <div id="fundoCategorias"></div>
+
+             <!-- =================================
+                6. MODAL DE LOGIN
+            ================================== -->
+
+            <div id="login" class="modal modal1">
+
+                <div class="modal-conteudo">
+
+                    <button id="fecharLogin" class="fechar">×</button>
+
+                    <h2>Faça login ou crie sua conta</h2>
+
+                    <p>
+                        Receba 2% de cashback em cada compra online ou na loja,
+                        receba recompensas e acesse benefícios exclusivos.
+                    </p>
+
+                    <button onclick="" id="loginFace">CONTINUE COM O FACEBOOK</button>
+
+                    <p>
+                        Ao fazer login com meu login em redes sociais,
+                        concordo em vincular minha conta de acordo com a
+                        Política de Privacidade
+                    </p>
+                    <form id="formLogin">
+                        <input
+                            type="email"
+                            id="email"
+                            required
+                            placeholder="E-MAIL"
+                        >
+
+                        <input
+                            type="password"
+                            id="senha"
+                            placeholder="SENHA"
+                        >
+                    
+                        <button onclick="" class="botao">INICIAR SESSÃO</button>
+                        
+                        <p id="erro"></p>
+
+                        <a href="#" id="abrirCadastro">NÃO TEM CONTA? INSCREVA-SE</a>
+                    </form>
+                </div>
+            </div>
+
+            <!-- =================================
+                7. MODAL DE CADASTRO
+            ================================== -->
+
+            <div id="cadastro" class="modal modal1">
+
+                <div class="modal-conteudo">
+                    <button type="button" id="fecharCadastro" class="fechar">×</button>
+
+                    <h2>Crie conta</h2>
+
+                    <form id="formCadastro">
+                        <input
+                            type="text"
+                            id="nomeCadastro"
+                            placeholder="NOME"
+                        >
+
+                        <input
+                            type="email"
+                            id="emailCadastro"
+                            placeholder="E-MAIL"
+                        >
+
+                        <input
+                            type="password"
+                            id="senhaCadastro"
+                            placeholder="SENHA"
+                        >
+
+                        <div id="telefone">
+                            <select id="pais">
+                                <option value="">DDD</option>
+                                <option value="+55">Brasil (+55)</option>
+                                <option value="+54">Argentina (+54)</option>
+                                <option value="+1">Estados Unidos (+1)</option>
+                                <option value="+351">Portugal (+351)</option>
+                                <option value="+81">Japão (+81)</option>
+                            </select>
+
+                            <input
+                                type="number"
+                                id="telefoneCadastro"
+                                placeholder="TELEFONE"
+                                inputmode="numeric"
+                            >
+                        </div>
+
+                        <div id="caixaNotificacoes">
+                            <label>
+                                <input type="checkbox" id="notificacoes" class="checkbox">
+
+                                Quero receber notícias e comunicações comerciais
+                                personalizadas.
+                            </label>
+                        </div>
+
+                        <div id="caixaTermos">
+                            <label>
+                                <input type="checkbox" id="termos" class="checkbox">
+
+                                Li e aceito os Termos de Uso e Compra
+                                e a Política de Privacidade.
+                            </label>
+                        </div>
+
+                        <button type="submit" id="registrar" class="botao">CRIAR CONTA</button>
+
+                        <p id="mensagens"></p>
+                    </form>
+                    <a href="#" id="voltarLogin">JÁ TENHO CONTA</a>
+                </div>
+
+            </div>
+        </div>
+        <script src="../../public/script-moda.js"></script>
+    </body>
+</html>

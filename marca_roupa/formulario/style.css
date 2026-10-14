@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-image: url(../IMG/pexels-oscar-steiner-982093-36957108.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 100%;
+    max-width: 460px;
+    background: rgb(248, 248, 248);
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px wheat;
+}
+
+h1 {
+    margin-bottom: 4px;
+    color: black;
+}
+
+.subtitulo {
+    margin-top: 0;
+    color: #6b7280;
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bdc6d3;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: 2px solid #bdc6d3;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background: black;
+    color: rgb(248, 248, 248);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: black;
+}
+
+#mensagem {
+    margin-top: 16px;
+    font-weight: bold;
+}
