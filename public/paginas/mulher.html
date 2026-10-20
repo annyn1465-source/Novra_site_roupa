@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NOVRA</title>
+    <!--CSS-->
+        <link rel="stylesheet" href="../css/style.css">
+
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    </head>
+    <body>
+        <!-- HEADER - Cabeçalho da página --> 
+        <div class="container">
+
+            <header id="header" class="header">
+                <div class="logo"> 
+                    <a href="../index.html"><img src="../img/logo.png" alt="logo novara"></a>
+                </div>
+
+                <nav id="navbar" class="navbar">
+
+                     <!-- CATEGORIAS -->
+                    <div id="tipos">
+                        <i class="fa-solid fa-bars tipos" id="abrirTipo"></i>
+                        <h2></h2>
+                    </div>
+
+                    <div class="busca desenvolvimento">
+                        <input type="text" placeholder="Busca">
+                    </div>
+                
+                    <div class="usuario">
+
+                        <span>●</span>
+                        <a id="abrirLogin">INICIAR SESSÃO</a>
+                        <span>🛍</span>
+
+                    </div>
+                </nav>
+
+                <nav class="categorias">
+                    <a href="../moda_feminina/abas/blusas.html" class="desenvolvimento">BLUSAS</a>
+                    <a href="../moda_feminina/abas/shorts.html" class="desenvolvimento">SHORTS</a>
+                    <a href="../moda_feminina/abas/saias.html" class="desenvolvimento">SAIAS</a>
+                    <a href="../moda_feminina/abas/jaquetas.html" class="desenvolvimento">JAQUETAS</a>
+                    <a href="../moda_feminina/abas/calcas.html" class="desenvolvimento">CALÇAS</a>
+                    <a href="../moda_feminina/abas/vestidos.html" class="desenvolvimento">VESTIDOS</a>
+                </nav>
+
+            </header>
+            
+            <section class="hero">
+                <div class="video-marca">
+                <video class="video-banner" autoplay muted loop playsinline>
+                    <source src="../../img/IMG-Moda/video_marca (2).mp4" type="video/mp4">
+                </video>
+                </div>
+
+            </section>
+
+            <!--carroceu automatico-->
+            <section class="carrossel">
+                <div class="slides">
+
+                    <img src="../../img/IMG-Moda/look1.jpg" alt="Look 1">
+                    <img src="../../img/IMG-Moda/look2.jpg" alt="Look 2">
+                    <img src="../../img/IMG-Moda/look3.jpg" alt="Look 3">
+                    <img src="../../img/IMG-Moda/look4.jpg" alt="Look 4">
+                    <img src="../../img/IMG-Moda/look5.jpg" alt="Look 5">
+                    <img src="../../img/IMG-Moda/look6.jpg" alt="Look 6">
+                    <img src="../../img/IMG-Moda/look7.jpg" alt="Look 7">
+                </div>
+
+            </section>
+
+
+            <!--PRODUTOS
+            <section class="produtos-container">-->
+
+            <h2>PODE TE INTERESSAR</h2>
+            <div class="lista-produtos">
+
+                <article class="produto">
+                    <img src="../../img/IMG-Moda/produto1.jpg" alt="Produto 1">
+
+                    <h3>MINISSAIA DE LANTEJOULAS</h3>
+
+                    <p>R$ 199,00</p>
+
+                </article>
+
+
+                <article class="produto">
+
+                    <img src="../../img/IMG-Moda/produto2.jpg" alt="Produto 2">
+
+                    <h3>MINISSAIA COM LAÇO</h3>
+
+                    <p>R$ 159,00</p>
+
+                </article>
+
+
+                <article class="produto">
+
+                    <img src="../../img/IMG-Moda/produto3.jpg" alt="Produto 3">
+
+                    <h3>SAIA FLUIDO</h3>
+
+                    <p>R$ 179,00</p>
+
+                </article>
+
+
+                <article class="produto">
+
+                    <img src="../../img/IMG-Moda/produto04.jpg" alt="Produto 4">
+
+                    <h3>VESTIDO MIDI</h3>
+
+                    <p>R$ 299,00</p>
+
+                </article>
+
+                <article class="produto">
+                    <img src="../../img/IMG-Moda/produto5.jpg" alt="Produto 5">
+
+                    <h3>CROPD</h3>
+
+                    <p>R$ 199,00</p>
+
+                </article>
+
+
+                <article class="produto">
+
+                    <img src="../../img/IMG-Moda/produto6.jpg" alt="Produto 6">
+
+                    <h3>BLUSA FLUIDA</h3>
+
+                    <p>R$ 159,00</p>
+
+                </article>
+
+
+                <article class="produto">
+
+                    <img src="../../img/IMG-Moda/produto7.jpg" alt="Produto 7">
+
+                    <h3>SHORT</h3>
+
+                    <p>R$ 179,00</p>
+
+                </article>
+
+
+                <article class="produto">
+
+                    <img src="../../img/IMG-Moda/produto8.jpg" alt="Produto 8">
+
+                    <h3>MINI SHORT</h3>
+
+                    <p>R$ 299,00</p>
+
+                </article>
+
+            </div>
+            <!-- =================================
+                5. FUNDOS DOS MODAIS
+            ================================== -->
+
+            <div id="fundo"></div>
+            <div id="fundoCategorias"></div>
+
+             <!-- =================================
+                6. MODAL DE LOGIN
+            ================================== -->
+
+            <div id="login" class="modal modal1">
+
+                <div class="modal-conteudo">
+
+                    <button id="fecharLogin" class="fechar butao">×</button>
+
+                    <h2>Faça login ou crie sua conta</h2>
+
+                    <p>
+                        Receba 2% de cashback em cada compra online ou na loja,
+                        receba recompensas e acesse benefícios exclusivos.
+                    </p>
+
+                    <button onclick="" id="loginFace" class="desenvolvimento">CONTINUE COM O FACEBOOK</button>
+
+                    <p>
+                        Ao fazer login com meu login em redes sociais,
+                        concordo em vincular minha conta de acordo com a
+                        Política de Privacidade
+                    </p>
+                    <form id="formLogin">
+                        <input
+                            type="email"
+                            id="email"
+                            required
+                            placeholder="E-MAIL"
+                        >
+
+                        <input
+                            type="password"
+                            id="senha"
+                            placeholder="SENHA"
+                        >
+                    
+                        <button onclick="">INICIAR SESSÃO</button>
+                        
+                        <p id="erro"></p>
+
+                        <a href="#" id="abrirCadastro">NÃO TEM CONTA? INSCREVA-SE</a>
+                    </form>
+                </div>
+            </div>
+
+            <!-- =================================
+                7. MODAL DE CADASTRO
+            ================================== -->
+
+            <div id="cadastro" class="modal modal1">
+
+                <div class="modal-conteudo">
+                    <button type="button" id="fecharCadastro" class="fechar">×</button>
+
+                    <h2>Crie conta</h2>
+
+                    <form id="formCadastro">
+                        <input
+                            type="text"
+                            id="nomeCadastro"
+                            placeholder="NOME"
+                        >
+
+                        <input
+                            type="email"
+                            id="emailCadastro"
+                            placeholder="E-MAIL"
+                        >
+
+                        <input
+                            type="password"
+                            id="senhaCadastro"
+                            placeholder="SENHA"
+                        >
+
+                        <div id="telefone">
+                            <select id="pais">
+                                <option value="">DDD</option>
+                                <option value="+55">Brasil (+55)</option>
+                                <option value="+54">Argentina (+54)</option>
+                                <option value="+1">Estados Unidos (+1)</option>
+                                <option value="+351">Portugal (+351)</option>
+                                <option value="+81">Japão (+81)</option>
+                            </select>
+
+                            <input
+                                type="number"
+                                id="telefoneCadastro"
+                                placeholder="TELEFONE"
+                                inputmode="numeric"
+                            >
+                        </div>
+
+                        <div id="caixaNotificacoes">
+                            <label>
+                                <input type="checkbox" id="notificacoes" class="checkbox">
+
+                                Quero receber notícias e comunicações comerciais
+                                personalizadas.
+                            </label>
+                        </div>
+
+                        <div id="caixaTermos">
+                            <label>
+                                <input type="checkbox" id="termos" class="checkbox">
+
+                                Li e aceito os Termos de Uso e Compra
+                                e a Política de Privacidade.
+                            </label>
+                        </div>
+
+                        <button type="submit" id="registrar">CRIAR CONTA</button>
+
+                        <p id="mensagens"></p>
+                    </form>
+                    <a href="#" id="voltarLogin">JÁ TENHO CONTA</a>
+                </div>
+            </div>
+
+            <!-- =================================
+                8. MODAL TIPO
+            ================================== -->
+
+            <div id="tipoTipo" class=" modal-Tipo">
+
+                <div class="modal-conteudo-Tipos">
+
+                    <div class="links-modal">
+                        <a href="../index.html" class="link-Opcao">NOVOS</a>
+                        <a href="./mulher.html"  class="link-Opcao">MULHER</a>
+                        <a href="./homem.html"  class="link-Opcao">HOMEM</a>
+                        <a href=""  class="link-Opcao desenvolvimento">POR INFLUENCIADORES</a>
+                    </div>
+
+                    <div class="link-abas">
+                        <a href="" class="abas-opicao desenvolvimento">BLUSAS</a>
+                        <a href="" class="abas-opicao desenvolvimento">CALÇAS</a>
+                        <a href="" class="abas-opicao desenvolvimento">SAIAS</a>
+                        <a href="" class="abas-opicao desenvolvimento">SHORTS</a>
+                        <a href="" class="abas-opicao desenvolvimento">VESTIDOS</a>
+                        <a href="" class="abas-opicao desenvolvimento">JAQUETAS</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="modal-Aviso">
+                <h2>AVISO NOVARA</h2>
+                <div id="icone">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                </div>
+                <div id="mensagemAviso">
+                    <P>
+                        Estamos trabalhando para trazer novidades. 
+                        Em breve, esta área estará disponível. 
+                        Agradecemos pela compreensão!
+                    </P>
+                </div>
+                <button id="fecharAviso">FECHAR</button>
+            </div>
+
+        <div>
+        <script type="module" src="../js/script.js"></script>
+    </body>
+</html>

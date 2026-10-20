@@ -4,8 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title> </title>
-        <link rel="stylesheet" href="style.css">
+        <title>NOVRA</title>
+        <link rel="stylesheet" href="./css/style.css">
+
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     </head>
 
     <body>
@@ -14,30 +17,33 @@
             <!-- =================================
                 1. BARRA DE NAVEGAÇÃO
             ================================== -->
+            <div class="logo"> 
+                <a href="../index.html">
+                    <img src="../img/logo.png" alt="logo novara">
+                </a>
+            </div>
 
-            <nav id="navBar">
+            <nav id="navBarra">
+               
 
                 <!-- CATEGORIAS -->
 
                 <div id="tipos">
+                    <i class="fa-solid fa-bars tipos" id="abrirTipo"></i>
                     <h2></h2>
-
-                    <a href="#" class="tipos" id="abrirTipoMulher">MULHER</a>
-                    <a href="" class="tipos" id="abrirTipoHomem">HOMENS</a>
-                    <a href="" class="tipos" id="abrirTipoInfluenciadores">POR INFLUENCIADORES</a>
                 </div>
 
                 <!-- PESQUISA -->
 
                 <div>
-                    <a href="" class="pesquisa">Procure aqui</a>
+                    <a href="" class="pesquisa desenvolvimento">Procure aqui</a>
                 </div>
 
                 <!-- LOGIN E CESTA -->
 
                 <div id="botaoLogin">
                     <a href="#" id="abrirLogin">INICIAR SESSÃO</a>
-                    <a href="">CESTA</a>
+                    <a href="" class="desenvolvimento">CESTA</a>
                 </div>
             </nav>
 
@@ -51,16 +57,16 @@
 
                 <div class="cabecalho">
                     <h2>NOVOS</h2>
-                    <a href="">VER TUDO ➜</a>
+                    <a href="" class="desenvolvimento">VER TUDO ➜</a>
                 </div>
 
                 <!-- CARROSSEL DE PRODUTOS NOVOS -->
 
-                <div class="carrossel" id="carrosselNovos">
+                <div class="carrossel-inicio" id="carrosselNovos">
 
                     <!-- PRODUTO 1: MOLETOM COM CAPUZ -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/novos img/Moletom com capuz frente (branco).jpg" class="frente" alt="Moletom com capuz">
                             <img src="../img/novos img/Moletom com capuz costas (branco).jpg" class="costas" alt="Moletom com capuz costas">
@@ -71,7 +77,7 @@
 
                     <!-- PRODUTO 2: CAMISETA DE MANGA -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/novos img/Camiseta de manga frente.jpg" class="frente" alt="Camiseta de manga frente">
                             <img src="../img/novos img/Camiseta de manga costas.jpg" class="costas" alt="Camiseta de manga costas">
@@ -82,7 +88,7 @@
 
                     <!-- PRODUTO 3: CAMISETA MANGA CURTA -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/novos img/Camiseta manga curta frente.webp" class="frente" alt="Camiseta frente">
                             <img src="../img/novos img/Camiseta manga curta costas.jpg" class="costas" alt="Camiseta costas">
@@ -93,7 +99,7 @@
 
                     <!-- PRODUTO 4: CALÇA JOGGER -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/novos img/Calça jogger frente.jpg" class="frente" alt="Calça frente">
                             <img src="../img/novos img/Calça jogger costas.jpg" class="costas" alt="Calça costas">
@@ -104,7 +110,7 @@
 
                     <!-- PRODUTO 5: MOLETOM COM CAPUZ -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/novos img/Moletom com capuz frente.jpg" class="frente" alt="Moletom com capuz frente">
                             <img src="../img/novos img/Moletom com capuz costas.jpg" class="costas" alt="Moletom com capuz costas">
@@ -115,7 +121,7 @@
 
                     <!-- PRODUTO 6: CAMISA BOXY DE MANGA -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/novos img/Camisa boxy de manga frente.jpg" class="frente" alt="Camisa boxy de manga frente">
                             <img src="../img/novos img/Camisa boxy de manga costas.jpg" class="costas" alt="Camisa boxy de manga costas">
@@ -126,7 +132,7 @@
 
                     <!-- PRODUTO 7: JEANS BARREL -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/novos img/Jeans barrel frente.jpg" class="frente" alt="Jeans barrel frente">
                             <img src="../img/novos img/Jeans barrel costas.jpg" class="costas" alt="Jeans barrel costas">
@@ -137,7 +143,7 @@
 
                     <!-- PRODUTO 8: JEANS BAGGY -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/novos img/Jeans baggy frente.jpg" class="frente" alt="Jeans baggy">
                             <img src="../img/novos img/Jeans baggy costas.jpg" class="costas" alt="Jeans baggy costas">
@@ -157,16 +163,16 @@
 
                 <div class="cabecalho">
                     <h2>MULHERES</h2>
-                    <a href="../marca_roupa/moda_feminina/index.html">VER TUDO ➜</a>
+                    <a href="./paginas/mulher.html">VER TUDO ➜</a>
                 </div>
 
                 <!-- CARROSSEL DE PRODUTOS FEMININOS -->
 
-                <div class="carrossel" id="carrosselMulher">
+                <div class="carrossel-inicio" id="carrosselMulher">
 
                     <!-- PRODUTO 1: CAMISETA OVERSIZE -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/mulher img/Camiseta oversize frente(mulher).jpg" class="frente" alt="Camiseta oversize frente">
                             <img src="../img/mulher img/Camiseta oversize costas(mulher).jpg" class="costas" alt="Camiseta oversize costas">
@@ -177,7 +183,7 @@
 
                     <!-- PRODUTO 2: CALÇA CAPRI -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/mulher img/Calça capri frente(mulher).jpg" class="frente" alt="Calça capri frente">
                             <img src="../img/mulher img/Calça capri costas(mulher).jpg" class="costas" alt="Calça capri costas">
@@ -188,7 +194,7 @@
 
                     <!-- PRODUTO 3: CASACO GOLA REDONDA -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/mulher img/Casaco gola redonda frente(mulher).jpg" class="frente" alt="Casaco gola redonda frente">
                             <img src="../img/mulher img/Casaco gola redonda costas(mulher).jpg" class="costas" alt="Casaco gola redonda costas">
@@ -199,7 +205,7 @@
 
                     <!-- PRODUTO 4: JAQUETA JEANS BALÃO CROPPED -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/mulher img/Jaqueta jeans balão cropped frente(mulher).jpg" class="frente" alt="Jaqueta jeans balão cropped frente">
                             <img src="../img/mulher img/Jaqueta jeans balão cropped costas(mulher).jpg" class="costas" alt="Jaqueta jeans balão cropped costas">
@@ -210,7 +216,7 @@
 
                     <!-- PRODUTO 5: CALÇA BALÃO -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/mulher img/Calça balão frente(mulher).jpg" class="frente" alt="Calça balão frente">
                             <img src="../img/mulher img/Calça balão costas(mulher).jpg" class="costas" alt="Calça balão costas">
@@ -221,7 +227,7 @@
 
                     <!-- PRODUTO 6: JEANS BARREL DE CINTURA -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/mulher img/Jeans barrel de cintura frente(mulher).jpg" class="frente" alt="Jeans barrel de cintura frente">
                             <img src="../img/mulher img/Jeans barrel de cintura costas(mulher).jpg" class="costas" alt="Jeans barrel de cintura costas">
@@ -232,7 +238,7 @@
 
                     <!-- PRODUTO 7: SUÉTER COM DECOTE EM V E FIVELA -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/mulher img/Suéter com decote em V e fivela frente(mulher).jpg" class="frente" alt="Suéter com decote em V e fivela frente">
                             <img src="../img/mulher img/Suéter com decote em V e fivela costas(mulher).jpg" class="costas" alt="Suéter com decote em V e fivela costas">
@@ -243,7 +249,7 @@
 
                     <!-- PRODUTO 8: MOLETOM COM ZÍPER -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/mulher img/Moletom com zíper frente(mulher).jpg" class="frente" alt="Moletom com zíper ">
                             <img src="../img/mulher img/Moletom com zíper costas(mulher).jpg" class="costas" alt="Moletom com zíper costas">
@@ -262,17 +268,17 @@
             <section class="secao-produtos homem">
                 <div class="cabecalho">
                     <h2>HOMENS</h2>
-                    <a href="../marca_roupa/moda_masculino/index.html">VER TUDO ➜</a>
+                    <a href="./paginas/homem.html">VER TUDO ➜</a>
                 </div>
 
 
                 <!-- CARROSSEL DE PRODUTOS MASCULINOS -->
 
-                <div class="carrossel" id="carrosselHomens">
+                <div class="carrossel-inicio" id="carrosselHomens">
 
                     <!-- PRODUTO 1: CAMISA MANGA CURTA BORDADA -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/homem img/Camisa manga curta bordada frente(homem).jpg" class="frente" alt="Camisa manga curta bordada freste">
                             <img src="../img/homem img/Camisa manga curta bordada costas(homem).jpg" class="costas" alt="Camisa manga curta bordada costas">
@@ -284,7 +290,7 @@
 
                     <!-- PRODUTO 2: CALÇA BARREL ESTAMPADA -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/homem img/Calça barrel estampada frente(homem).jpg" class="frente" alt="Calça barrel estampada frente">
                             <img src="../img/homem img/Calça barrel estampada costas(homem).jpg" class="costas" alt="Calça barrel estampada costas">
@@ -296,7 +302,7 @@
 
                     <!-- PRODUTO 3: CALÇA BALÃO DE ALGODÃO -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/homem img/Calça balão de algodão frente(homem).jpg" class="frente" alt="Calça balão de algodão frente">
                             <img src="../img/homem img/Calça balão de algodão costas(homem).jpg" class="costas" alt="Calça balão de algodão costas">
@@ -308,7 +314,7 @@
 
                     <!-- PRODUTO 4: MOLETOM COM CAPUZ -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/homem img/Moletom com capuz frente(homem).jpg" class="frente" alt="Moletom com capuz frente">
                             <img src="../img/homem img/Moletom com capuz costas(homem).jpg" class="costas" alt="Moletom com capuz costas">
@@ -320,7 +326,7 @@
 
                     <!-- PRODUTO 5: CAMISETA TÉCNICA MANGA COMPRIDA -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/homem img/Camiseta técnica manga comprida fremte(homem).jpg" class="frente" alt="Camiseta técnica manga comprida frente">
                             <img src="../img/homem img/Camiseta técnica manga comprida costas(homem).jpg" class="costas" alt="Camiseta técnica manga comprida costas">
@@ -332,10 +338,10 @@
 
                     <!-- PRODUTO 6: CAMISETA ESTAMPADA COM DECOTE EM V -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/homem img/Camiseta estampada com decote em V frente(homem).jpg" class="frente" alt="Camiseta estampada com decote em V frente">
-                            <img src="..//img/homem img/Camiseta estampada com decote em V costas(homem).jpg" class="costas" alt="Camiseta estampada com decote em V costas">
+                            <img src="../img/homem img/Camiseta estampada com decote em V costas(homem).jpg" class="costas" alt="Camiseta estampada com decote em V costas">
                         </div>
                         <h3>Camiseta estampada com decote em V</h3>
                         <p>R$ 000,00</p>
@@ -344,7 +350,7 @@
 
                     <!-- PRODUTO 7: CAMISETA DE MANGA COMPRIDA ESTAMPADA -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/homem img/Camiseta de manga comprida estampada frente(homem).jpg" class="frente" alt="Camiseta de manga comprida estampada frente">
                             <img src="../img/homem img/Camiseta de manga comprida estampada costas(homem).jpg" class="costas" alt="Camiseta de manga comprida estampada costas">
@@ -356,7 +362,7 @@
 
                     <!-- PRODUTO 8: JAQUETA TÉCNICA COM CAPUZ -->
 
-                    <div class="produto">
+                    <div class="produto-inicio">
                         <div class="imagem">
                             <img src="../img/homem img/Jaqueta técnica com capuz frente(homem).jpg" class="frente" alt="Jaqueta técnica com capuz frente">
                             <img src="../img/homem img/Jaqueta técnica com capuz costas(homem).jpg" class="costas" alt="Jaqueta técnica com capuz frente">
@@ -395,7 +401,7 @@
                         receba recompensas e acesse benefícios exclusivos.
                     </p>
 
-                    <button onclick="" id="loginFace">CONTINUE COM O FACEBOOK</button>
+                    <button onclick="" id="loginFace" class="desenvolvimento">CONTINUE COM O FACEBOOK</button>
 
                     <p>
                         Ao fazer login com meu login em redes sociais,
@@ -501,58 +507,49 @@
             </div>
 
             <!-- =================================
-                8. MODAL DA CATEGORIA MULHER
+                8. MODAL TIPO
             ================================== -->
 
-            <div id="tipoMulher" class=" modal-Tipo">
+            <div id="tipoTipo" class=" modal-Tipo">
 
-                <div class="modal-conteudo">
+                <div class="modal-conteudo-Tipos">
 
-                    <div class="links">
-                        <a href="">NOVOS</a>
-                        <a href="../marca_roupa/moda_feminina/index.html">MULHER</a>
-                        <a href="../marca_roupa/moda_masculina/index.html">HOMEM</a>
-                        <a href="">POR INFLUENCIADORES</a>
+                    <div class="links-modal">
+                        <a href="./index.html" class="link-Opcao">NOVOS</a>
+                        <a href="./paginas/mulher.html"  class="link-Opcao">MULHER</a>
+                        <a href="./paginas/homem.html"  class="link-Opcao">HOMEM</a>
+                        <a href=""  class="link-Opcao desenvolvimento">POR INFLUENCIADORES</a>
+                    </div>
+
+                    <div class="link-abas">
+                        <a href="" class="abas-opicao desenvolvimento">BLUSAS</a>
+                        <a href="" class="abas-opicao desenvolvimento">CALÇAS</a>
+                        <a href="" class="abas-opicao desenvolvimento">SAIAS</a>
+                        <a href="" class="abas-opicao desenvolvimento">SHORTS</a>
+                        <a href="" class="abas-opicao desenvolvimento">VESTIDOS</a>
+                        <a href="" class="abas-opicao desenvolvimento">JAQUETAS</a>
                     </div>
 
                 </div>
 
             </div>
 
-            <!-- =================================
-                9. MODAL DA CATEGORIA HOMEM
-            ================================== -->
-
-            <div id="tipoHomem" class="modal-Tipo">
-
-                <div class="modal-conteudo">
-                    <div class="links">
-                        <a href="">NOVOS</a>
-                        <a href="../marca_roupa/moda_masculina/index.html">HOMEM</a>
-                        <a href="../marca_roupa/moda_feminina/index.html">MULHER</a>
-                        <a href="">POR INFLUENCIADORES</a>
-                    </div>
-                    
-
-                    <div>
-
-                    </div>
+            <div id="modal-Aviso">
+                <h2>AVISO NOVARA</h2>
+                <div id="icone">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
                 </div>
-
-            </div>
-
-            <!-- =================================
-                10. MODAL DE INFLUENCIADORES
-            ================================== -->
-
-            <div id="tipoInfluenciadores" class="modal-Tipo">
-
-                <div class="modal-conteudo">
-
+                <div id="mensagemAviso">
+                    <P>
+                        Estamos trabalhando para trazer novidades. 
+                        Em breve, esta área estará disponível. 
+                        Agradecemos pela compreensão!
+                    </P>
                 </div>
+                <button id="fecharAviso">FECHAR</button>
 
             </div>
         </div>
-        <script src="script.js"></script>
+        <script type="module" src="./js/script.js"></script>
     </body>
 </html>

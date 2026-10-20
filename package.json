@@ -1,0 +1,28 @@
+{
+  "name": "proje-integrador",
+  "version": "1.0.0",
+  "description": "A NOVRA é um site de moda criado para quem busca autenticidade, atitude e estilo em cada detalhe. Explore coleções modernas, descubra novas tendências e encontre peças que combinam com sua personalidade. Mais do que roupas, a NOVRA é uma forma de expressar quem você é. Seu estilo, suas regras, sua identidade.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annyn1465-source/Novra_site_roupa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/annyn1465-source/Novra_site_roupa/issues"
+  },
+  "homepage": "https://github.com/annyn1465-source/Novra_site_roupa#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.3.0",
+    "open": "^11.0.4"
+  }
+}
